@@ -1,2 +1,3 @@
-# portfolio
-Portfolio site at https://cameronrobey.co.uk
+# Portfolio
+
+Personal portfolio for Cameron Robey.   Site available at https://cameronrobey.co.uk
