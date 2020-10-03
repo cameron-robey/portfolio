@@ -9,7 +9,7 @@ export const Portfolio = styled.div`
   @media (max-width: 1300px) {
     width: 70%;
   };
-  @media (max-width: 750) {
+  @media (max-width: 750px) {
     width: 90%;
   };
 `;
@@ -22,24 +22,37 @@ export const GridWrapper = styled.div`
   width: 100%;
   padding-top: 100px;
   padding-bottom: 100px;
+
+  @media (max-width: 750px) {
+    display: block;
+  };
 `;
 
 export const Item = styled.div`
   width: 100%;
   overflow: hidden;
   border-radius: 5px;
+
+  @media (max-width: 750px) {
+    margin-top: 60px;
+  };
 `;
 
 export const Thumbnail = styled.img`
   width: 100%;
   height: 100%;
   cursor: pointer;
+  display: block;
 
   transition: transform 0.2s;
 
   &:hover {
     transform: scale(103%);
   }
+
+  @media (max-width: 750px) {
+    height: auto;
+  };
 `;
 
 export const InfoBox = styled.div`
@@ -52,6 +65,10 @@ export const InfoBox = styled.div`
     display: inherit;
   };
   padding: 40px;
+
+  @media (max-width: 750px) {
+    margin-top: 20px;
+  };
 `;
 
 export const Title = styled.p`
@@ -100,6 +117,10 @@ export const Link = styled.a`
 
 export const Pills = styled.div`
   margin-bottom: 20px;
+
+  @media (max-width: 750px) {
+    margin-bottom: 10px;
+  };
 `;
 
 export const Pill = styled.div`
@@ -110,4 +131,8 @@ export const Pill = styled.div`
   display: inline-block;
   padding: 5px 12px;
   margin-right: 10px;
+
+  @media (max-width: 750px) {
+    margin-bottom: 10px;
+  };
 `;
