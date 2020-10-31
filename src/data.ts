@@ -1,7 +1,7 @@
 export const info = {
   title: "Cameron Robey",
-  subtitle: "Student and full stack developer",
-  biography: "Hello! I'm Cameron, a second year Natural Sciences student at St John's College, Cambridge. I do full stack web development, for which you can view some of my projects below.",
+  subtitle: "Student and software engineer",
+  biography: "Hello! I'm Cameron, a second year Natural Sciences student at St John's College, Cambridge. I mainly do full stack web development, for which you can view some of my projects below.",
 }
 
 export const portfolio = [
@@ -26,10 +26,6 @@ export const portfolio = [
       {
         url: 'https://mayball.org/',
         text: 'May Ball Website'
-      },
-      {
-        url: 'https://github.com/may-ball/',
-        text: 'Code on Github'
       }
     ]
   },
@@ -53,7 +49,7 @@ export const portfolio = [
     title: 'MMK Public Speaking',
     image_url: '/assets/mmk.png',
     languages: ['Javascript','React','Strapi'],
-    information: 'A website and logo for MMK Public Speaking to promote the work of the company and attract new clients. The website was built in react, with Strapi used for the content management system.',
+    information: 'A website and logo for MMK Public Speaking to promote the work of the company and attract new clients. The website was built in React, with Strapi used for the content management system.',
     links: [
       {
         url: 'https://www.mmkarim.com',
@@ -75,7 +71,7 @@ export const portfolio = [
   { 
     title: 'Dr Challoner\'s Model United Nations',
     image_url: '/assets/challmun.png',
-    languages: ['Javascript','React','singular.live'],
+    languages: ['Javascript','React','Singular.Live'],
     information: 'A website for the Dr Challoner\'s Model United Nations Society built in React to help with the running of weekly sessions and large scale conferences. Also a suite of tools for integration with live video production using singular.live.',
     links: []
   }
