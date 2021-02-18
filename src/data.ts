@@ -9,11 +9,15 @@ export const portfolio = [
     title: 'Localing' ,
     image_url: '/assets/localing.png',
     languages: ['Typescript','DynamoDB','Cognito','Express','React','NodeJS','Java'],
-    information: 'A platform offering an ecommerce solution to micro businesses and providing deals to local residents. It was built using React customer and business facing frontends and a microservices backend using NodeJS and Java.',
+    information: 'A platform offering an ecommerce solution to micro businesses and providing deals to local residents. It was built using React customer and business facing frontends and a  backend incorporating serverless and microservices using NodeJS and Java.\n\nI built a business dashboard, the system for businesses to update the information about their stores, products and inventory, and to fulfil orders.\n\nThe startup was accepted into the Judge Business School (University of Cambridge) Accelerator but unfortunately shut down permanatly in 2021.',
     links: [
       {
-        url: 'https://localing.co.uk/',
-        text: 'Visit Localing'
+        url: 'https://github.com/Localing/',
+        text: 'Code on Github'
+      },
+      {
+        url: 'https://github.com/Localing/business-dashboard',
+        text: 'Code for Business Dashboard'
       }
     ]
   },
@@ -46,13 +50,13 @@ export const portfolio = [
     ]
   },
   { 
-    title: 'MMK Public Speaking',
+    title: 'MMK Academy',
     image_url: '/assets/mmk.png',
     languages: ['Javascript','React','Strapi'],
-    information: 'A website and logo for MMK Public Speaking to promote the work of the company and attract new clients. The website was built in React, with Strapi used for the content management system.',
+    information: 'A website and logo for MMK Academy to promote the work of the company and attract new clients. The website was built in React, with Strapi used for the content management system.',
     links: [
       {
-        url: 'https://www.mmkarim.com',
+        url: 'https://www.mmkacademy.com',
         text: 'View the site'
       },
       {
@@ -62,11 +66,20 @@ export const portfolio = [
     ]
   },
   { 
-    title: 'Radio Silence Audio Drama',
-    image_url: '/assets/radiosilence.png',
-    languages: ['PHP'],
-    information: 'A website to showcase the episodes of an audio drama. The site was built in PHP with a custom content management system.',
-    links: []
+    title: 'Beacon Meshenger',
+    image_url: '/assets/beacon.png',
+    languages: ['Dart','Flutter','Android Nearby'],
+    information: 'An end to end encrypyted mesh network messenger for android. The app uses Bluetooth & ultrasound through Android Nearby to detect nearby devices running Beacon up to 100m away and connect to them. When devices join the network, anyone can send them a message.\n\nThe app was built using Flutter (in Dart).\n\nThe project was made for the 2021 Hack Cambridge Hackathon, for which it won first place overall.',
+    links: [
+      {
+        url: 'https://github.com/beacon-meshenger/beacon',
+        text: 'Code on Github'
+      },
+      {
+        url: 'https://devpost.com/software/beacon-jybrxm',
+        text: 'Devpost Submission'
+      }
+    ]
   },
   { 
     title: 'Dr Challoner\'s Model United Nations',
@@ -76,3 +89,14 @@ export const portfolio = [
     links: []
   }
 ]
+
+
+// OLD Items:
+
+// { 
+//   title: 'Radio Silence Audio Drama',
+//   image_url: '/assets/radiosilence.png',
+//   languages: ['PHP'],
+//   information: 'A website to showcase the episodes of an audio drama. The site was built in PHP with a custom content management system.',
+//   links: []
+// },
