@@ -90,6 +90,7 @@ export const Information = styled.p`
   font-weight: 500;
   font-size: 1.1rem;
   text-align: left;
+  white-space: pre-line;
 `;
 
 export const Link = styled.a`
